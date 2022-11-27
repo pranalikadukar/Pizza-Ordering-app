@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context=".welcomeActivity">
+
+    <LinearLayout
+        android:id="@+id/menubar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/menu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="210dp"
+            android:layout_weight="30"
+            android:drawableLeft="@drawable/ic_baseline_menu_24"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="47"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/menu" />
+
+        <TextView
+            android:id="@+id/bag"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_weight="50"
+            android:drawableRight="@drawable/ic_baseline_shopping_bag_24"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/menu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/menu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menubar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menubar"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:paddingLeft="30dp"
+            android:text="Featured"
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Food"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/food_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/food_item_list" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PizzaStore</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="logi">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="registe">Register</string>
+    <string name="usernam">Username</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="regi">Register</string>
+    <string name="custom_pizza">Custom Pizza</string>
+    <string name="button_cart">cart</string>
+    <string name="periperi_souce">PeriPeri Sauce</string>
+    <string name="cart">cart</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="ordered_successfully">Ordered Successfully</string>
+    <string name="red_chilly_sauce">Red chilly Sauce</string>
+    <string name="large">Large</string>
+    <string name="medium">Medium</string>
+    <string name="small">small</string>
+    <string name="medium_s">Medium</string>
+    <string name="large_S">Large</string>
+    <string name="pizza_price">Pizza price</string>
+    <string name="order">Order</string>
+</resources>

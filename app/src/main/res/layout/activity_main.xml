@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pizzaaa"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:layout_width="228dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="52dp" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="350dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="#F1D906"
+        android:padding="15dp"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="350dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="227dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/btn_bt2"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

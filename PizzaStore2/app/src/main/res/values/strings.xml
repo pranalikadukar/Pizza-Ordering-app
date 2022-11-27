@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PizzaStore</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="logi">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="registe">Register</string>
+    <string name="usernam">Username</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="regi">Register</string>
+</resources>

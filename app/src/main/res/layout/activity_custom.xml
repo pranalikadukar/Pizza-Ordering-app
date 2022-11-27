@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomActivity">
+
+
+    <FrameLayout
+        android:id="@+id/framely"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="100">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dow"
+            android:layout_width="275dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/dow" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/redsause"
+            android:layout_width="224dp"
+            android:layout_height="225dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="73dp"
+            android:layout_marginVertical="36dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/redsause"
+            android:visibility="gone" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/periperi"
+            android:layout_width="224dp"
+            android:layout_height="225dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="78dp"
+            android:layout_marginVertical="35dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/periperi"
+
+            android:visibility="gone" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/mushroom"
+            android:layout_width="224dp"
+            android:layout_height="225dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginVertical="37dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/mushroom"
+
+            android:visibility="gone" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/onion"
+            android:layout_width="224dp"
+            android:layout_height="225dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginVertical="38dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/onion"
+
+            android:visibility="gone" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/capsicum"
+            android:layout_width="224dp"
+            android:layout_height="225dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginVertical="38dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/capsicum"
+
+            android:visibility="gone" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/paneer"
+            android:layout_width="224dp"
+            android:layout_height="225dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginVertical="38dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/paneer"
+
+            android:visibility="gone" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ing1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_below="@+id/framely"
+        android:layout_marginTop="1dp"
+        android:layout_weight="100"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="Sauces"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/list_sauses"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ing1"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/chkboxRedchilly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="20dp"
+
+                android:text="@string/red_chilly_sauce" />
+
+            <CheckBox
+                android:id="@+id/chkboxperiperi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="100dp"
+                android:text="@string/periperi_souce" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:text="@string/ingredients"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/stuff1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ing1"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/mushroom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="20dp"
+                android:text="Mushroom" />
+
+            <CheckBox
+                android:id="@+id/capsicum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+
+                android:layout_marginEnd="73dp"
+
+                android:text="capsicum" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stuff"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ing1"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/onion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="20dp"
+
+                android:text="onion" />
+
+            <CheckBox
+                android:id="@+id/paneer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="73dp"
+                android:text="Paneer" />
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+<!--            -->
+<!--       -->
+<!--        <RadioGroup-->
+<!--            android:id="@+id/size"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_below="@+id/ing1"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/small"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:text="@string/small" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/medium"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:text="@string/medium_s" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/large"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginEnd="73dp"-->
+
+<!--                android:text="@string/large_S" />-->
+
+<!--        </RadioGroup>-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/addtocart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/ing1"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="18"
+        android:background="@drawable/rounded_corner_button"
+        android:backgroundTint="@color/purple_500"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Add  Rs 50"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+
+
