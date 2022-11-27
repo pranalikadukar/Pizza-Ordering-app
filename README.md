@@ -22,3 +22,12 @@ furnished/added in pizza.
     such as Pizza, Order Status.
   - Provides easy and reliable user interface where user can 
     see how their customized pizza is going to look.
+
+-Hardware required & technologies used:
+ - System Requirements:
+   - Minimum 4 GB RAM / 32 GB Internal memory android
+     phone.
+   - Internet Connectivity.
+ - Technologies used:
+   - Android Studio (For Front-end & Back-end Development).
+   - Java Language used for back-end functionalities.
