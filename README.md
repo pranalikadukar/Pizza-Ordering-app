@@ -1,3 +1,4 @@
+
 # Hut 'N Gut PizzaStore
 This app is completely built on Android Studio Using Java Language.
 
@@ -31,3 +32,4 @@ furnished/added in pizza.
  - Technologies used:
    - Android Studio (For Front-end & Back-end Development).
    - Java Language used for back-end functionalities.
+
