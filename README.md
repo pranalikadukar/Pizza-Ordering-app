@@ -1,5 +1,5 @@
 
-# Hut 'N Gut PizzaStore
+# Hut 'N Gut PizzaStore(Android Application)
 This app is completely built on Android Studio Using Java Language.
 
 The Pizza Ordering Application “Hut N Gut Pizza” is designed 
