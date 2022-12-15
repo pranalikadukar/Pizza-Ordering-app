@@ -1,5 +1,6 @@
 
 # Hut 'N Gut PizzaStore(Android Application)
+<hr>
 This app is completely built on Android Studio Using Java Language.
 
 The Pizza Ordering Application “Hut N Gut Pizza” is designed 
@@ -14,8 +15,8 @@ wanting to order pizza etc. according to their interest. The
 registered restaurant / café will charge according to the items 
 furnished/added in pizza.
 
-
-- Functionalities Provided in this Project:-
+<h3>
+Functionalities Provided in this Project:- </h3><hr>
 
   - Provides the searching facilities based on various factors 
     such as Pizza, Order Status.
@@ -24,7 +25,8 @@ furnished/added in pizza.
   - Provides easy and reliable user interface where user can 
     see how their customized pizza is going to look.
 
--Hardware required & technologies used:
+<h3>Hardware required & technologies used:-</h3><hr>
+
  - System Requirements:
    - Minimum 4 GB RAM / 32 GB Internal memory android
      phone.
