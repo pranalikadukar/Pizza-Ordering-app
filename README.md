@@ -25,7 +25,7 @@ Functionalities Provided in this Project:- </h3><hr>
   - Provides easy and reliable user interface where user can 
     see how their customized pizza is going to look.
 
-Hardware required & technologies used:-</h3>
+<h3>Hardware required & technologies used:-</h3>
 
  - System Requirements:
    - Minimum 4 GB RAM / 32 GB Internal memory android
